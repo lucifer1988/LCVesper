@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D177C018F38B1000E90436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D177BF18F38B1000E90436 /* Foundation.framework */; };
+		D6D177C218F38B1000E90436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D177C118F38B1000E90436 /* CoreGraphics.framework */; };
+		D6D177C418F38B1000E90436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D177C318F38B1000E90436 /* UIKit.framework */; };
+		D6D177CA18F38B1000E90436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6D177C818F38B1000E90436 /* InfoPlist.strings */; };
+		D6D177CC18F38B1000E90436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D177CB18F38B1000E90436 /* main.m */; };
+		D6D177D018F38B1000E90436 /* LCVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D177CF18F38B1000E90436 /* LCVAppDelegate.m */; };
+		D6D177D318F38B1000E90436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D177D118F38B1000E90436 /* Main.storyboard */; };
+		D6D177D618F38B1000E90436 /* LCVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D177D518F38B1000E90436 /* LCVViewController.m */; };
+		D6D177D818F38B1000E90436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D177D718F38B1000E90436 /* Images.xcassets */; };
+		D6D177DF18F38B1000E90436 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D177DE18F38B1000E90436 /* XCTest.framework */; };
+		D6D177E018F38B1000E90436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D177BF18F38B1000E90436 /* Foundation.framework */; };
+		D6D177E118F38B1000E90436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D177C318F38B1000E90436 /* UIKit.framework */; };
+		D6D177E918F38B1000E90436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6D177E718F38B1000E90436 /* InfoPlist.strings */; };
+		D6D177EB18F38B1000E90436 /* LCVesperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D177EA18F38B1000E90436 /* LCVesperTests.m */; };
+		D6D177F618F38CF200E90436 /* LCVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D177F518F38CF200E90436 /* LCVDetailViewController.m */; };
+		D6D177FA18F3915100E90436 /* LCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D177F818F3915100E90436 /* LCVCell.m */; };
+		D6D177FB18F3915100E90436 /* LCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D177F918F3915100E90436 /* LCVCell.xib */; };
+		D6D177FD18F397C800E90436 /* Assassins List.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6D177FC18F397C800E90436 /* Assassins List.plist */; };
+		D6D1780518F39C4600E90436 /* Assassin1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6D177FF18F39C4600E90436 /* Assassin1.JPG */; };
+		D6D1780618F39C4600E90436 /* Assassin2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6D1780018F39C4600E90436 /* Assassin2.JPG */; };
+		D6D1780718F39C4600E90436 /* Assassin3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6D1780118F39C4600E90436 /* Assassin3.JPG */; };
+		D6D1780818F39C4600E90436 /* Assassin4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6D1780218F39C4600E90436 /* Assassin4.JPG */; };
+		D6D1780918F39C4600E90436 /* Assassin5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6D1780318F39C4600E90436 /* Assassin5.JPG */; };
+		D6D1780A18F39C4600E90436 /* Assassin6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6D1780418F39C4600E90436 /* Assassin6.JPG */; };
+		D6D1780D18F39C8300E90436 /* LCVItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D1780C18F39C8300E90436 /* LCVItem.m */; };
+		D6D1781018F3D24200E90436 /* UITableView+Frames.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D1780F18F3D24200E90436 /* UITableView+Frames.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6D177E218F38B1000E90436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D177B418F38B1000E90436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D177BB18F38B1000E90436;
+			remoteInfo = LCVesper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D177BC18F38B1000E90436 /* LCVesper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCVesper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D177BF18F38B1000E90436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6D177C118F38B1000E90436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6D177C318F38B1000E90436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6D177C718F38B1000E90436 /* LCVesper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LCVesper-Info.plist"; sourceTree = "<group>"; };
+		D6D177C918F38B1000E90436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6D177CB18F38B1000E90436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6D177CD18F38B1000E90436 /* LCVesper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCVesper-Prefix.pch"; sourceTree = "<group>"; };
+		D6D177CE18F38B1000E90436 /* LCVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCVAppDelegate.h; sourceTree = "<group>"; };
+		D6D177CF18F38B1000E90436 /* LCVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCVAppDelegate.m; sourceTree = "<group>"; };
+		D6D177D218F38B1000E90436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6D177D418F38B1000E90436 /* LCVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCVViewController.h; sourceTree = "<group>"; };
+		D6D177D518F38B1000E90436 /* LCVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCVViewController.m; sourceTree = "<group>"; };
+		D6D177D718F38B1000E90436 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6D177DD18F38B1000E90436 /* LCVesperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCVesperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D177DE18F38B1000E90436 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6D177E618F38B1000E90436 /* LCVesperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LCVesperTests-Info.plist"; sourceTree = "<group>"; };
+		D6D177E818F38B1000E90436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6D177EA18F38B1000E90436 /* LCVesperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCVesperTests.m; sourceTree = "<group>"; };
+		D6D177F418F38CF200E90436 /* LCVDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVDetailViewController.h; sourceTree = "<group>"; };
+		D6D177F518F38CF200E90436 /* LCVDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVDetailViewController.m; sourceTree = "<group>"; };
+		D6D177F718F3915100E90436 /* LCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVCell.h; sourceTree = "<group>"; };
+		D6D177F818F3915100E90436 /* LCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVCell.m; sourceTree = "<group>"; };
+		D6D177F918F3915100E90436 /* LCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCVCell.xib; sourceTree = "<group>"; };
+		D6D177FC18F397C800E90436 /* Assassins List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Assassins List.plist"; sourceTree = "<group>"; };
+		D6D177FF18F39C4600E90436 /* Assassin1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Assassin1.JPG; sourceTree = "<group>"; };
+		D6D1780018F39C4600E90436 /* Assassin2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Assassin2.JPG; sourceTree = "<group>"; };
+		D6D1780118F39C4600E90436 /* Assassin3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Assassin3.JPG; sourceTree = "<group>"; };
+		D6D1780218F39C4600E90436 /* Assassin4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Assassin4.JPG; sourceTree = "<group>"; };
+		D6D1780318F39C4600E90436 /* Assassin5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Assassin5.JPG; sourceTree = "<group>"; };
+		D6D1780418F39C4600E90436 /* Assassin6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Assassin6.JPG; sourceTree = "<group>"; };
+		D6D1780B18F39C8300E90436 /* LCVItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVItem.h; sourceTree = "<group>"; };
+		D6D1780C18F39C8300E90436 /* LCVItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVItem.m; sourceTree = "<group>"; };
+		D6D1780E18F3D24200E90436 /* UITableView+Frames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Frames.h"; sourceTree = "<group>"; };
+		D6D1780F18F3D24200E90436 /* UITableView+Frames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Frames.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D177B918F38B1000E90436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D177C218F38B1000E90436 /* CoreGraphics.framework in Frameworks */,
+				D6D177C418F38B1000E90436 /* UIKit.framework in Frameworks */,
+				D6D177C018F38B1000E90436 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D177DA18F38B1000E90436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D177DF18F38B1000E90436 /* XCTest.framework in Frameworks */,
+				D6D177E118F38B1000E90436 /* UIKit.framework in Frameworks */,
+				D6D177E018F38B1000E90436 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D177B318F38B1000E90436 = {
+			isa = PBXGroup;
+			children = (
+				D6D177C518F38B1000E90436 /* LCVesper */,
+				D6D177E418F38B1000E90436 /* LCVesperTests */,
+				D6D177BE18F38B1000E90436 /* Frameworks */,
+				D6D177BD18F38B1000E90436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D177BD18F38B1000E90436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D177BC18F38B1000E90436 /* LCVesper.app */,
+				D6D177DD18F38B1000E90436 /* LCVesperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D177BE18F38B1000E90436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D177BF18F38B1000E90436 /* Foundation.framework */,
+				D6D177C118F38B1000E90436 /* CoreGraphics.framework */,
+				D6D177C318F38B1000E90436 /* UIKit.framework */,
+				D6D177DE18F38B1000E90436 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6D177C518F38B1000E90436 /* LCVesper */ = {
+			isa = PBXGroup;
+			children = (
+				D6D177CE18F38B1000E90436 /* LCVAppDelegate.h */,
+				D6D177CF18F38B1000E90436 /* LCVAppDelegate.m */,
+				D6D177D118F38B1000E90436 /* Main.storyboard */,
+				D6D177D418F38B1000E90436 /* LCVViewController.h */,
+				D6D177D518F38B1000E90436 /* LCVViewController.m */,
+				D6D177F418F38CF200E90436 /* LCVDetailViewController.h */,
+				D6D177F518F38CF200E90436 /* LCVDetailViewController.m */,
+				D6D177F718F3915100E90436 /* LCVCell.h */,
+				D6D177F818F3915100E90436 /* LCVCell.m */,
+				D6D1780B18F39C8300E90436 /* LCVItem.h */,
+				D6D1780C18F39C8300E90436 /* LCVItem.m */,
+				D6D177F918F3915100E90436 /* LCVCell.xib */,
+				D6D1780E18F3D24200E90436 /* UITableView+Frames.h */,
+				D6D1780F18F3D24200E90436 /* UITableView+Frames.m */,
+				D6D177D718F38B1000E90436 /* Images.xcassets */,
+				D6D177C618F38B1000E90436 /* Supporting Files */,
+			);
+			path = LCVesper;
+			sourceTree = "<group>";
+		};
+		D6D177C618F38B1000E90436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D177C718F38B1000E90436 /* LCVesper-Info.plist */,
+				D6D177C818F38B1000E90436 /* InfoPlist.strings */,
+				D6D177CB18F38B1000E90436 /* main.m */,
+				D6D177CD18F38B1000E90436 /* LCVesper-Prefix.pch */,
+				D6D177FC18F397C800E90436 /* Assassins List.plist */,
+				D6D177FE18F39C4600E90436 /* Assassin */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D177E418F38B1000E90436 /* LCVesperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6D177EA18F38B1000E90436 /* LCVesperTests.m */,
+				D6D177E518F38B1000E90436 /* Supporting Files */,
+			);
+			path = LCVesperTests;
+			sourceTree = "<group>";
+		};
+		D6D177E518F38B1000E90436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D177E618F38B1000E90436 /* LCVesperTests-Info.plist */,
+				D6D177E718F38B1000E90436 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D177FE18F39C4600E90436 /* Assassin */ = {
+			isa = PBXGroup;
+			children = (
+				D6D177FF18F39C4600E90436 /* Assassin1.JPG */,
+				D6D1780018F39C4600E90436 /* Assassin2.JPG */,
+				D6D1780118F39C4600E90436 /* Assassin3.JPG */,
+				D6D1780218F39C4600E90436 /* Assassin4.JPG */,
+				D6D1780318F39C4600E90436 /* Assassin5.JPG */,
+				D6D1780418F39C4600E90436 /* Assassin6.JPG */,
+			);
+			path = Assassin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D177BB18F38B1000E90436 /* LCVesper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D177EE18F38B1000E90436 /* Build configuration list for PBXNativeTarget "LCVesper" */;
+			buildPhases = (
+				D6D177B818F38B1000E90436 /* Sources */,
+				D6D177B918F38B1000E90436 /* Frameworks */,
+				D6D177BA18F38B1000E90436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCVesper;
+			productName = LCVesper;
+			productReference = D6D177BC18F38B1000E90436 /* LCVesper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D177DC18F38B1000E90436 /* LCVesperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D177F118F38B1000E90436 /* Build configuration list for PBXNativeTarget "LCVesperTests" */;
+			buildPhases = (
+				D6D177D918F38B1000E90436 /* Sources */,
+				D6D177DA18F38B1000E90436 /* Frameworks */,
+				D6D177DB18F38B1000E90436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D177E318F38B1000E90436 /* PBXTargetDependency */,
+			);
+			name = LCVesperTests;
+			productName = LCVesperTests;
+			productReference = D6D177DD18F38B1000E90436 /* LCVesperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D177B418F38B1000E90436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Lucifer;
+				TargetAttributes = {
+					D6D177DC18F38B1000E90436 = {
+						TestTargetID = D6D177BB18F38B1000E90436;
+					};
+				};
+			};
+			buildConfigurationList = D6D177B718F38B1000E90436 /* Build configuration list for PBXProject "LCVesper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D177B318F38B1000E90436;
+			productRefGroup = D6D177BD18F38B1000E90436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D177BB18F38B1000E90436 /* LCVesper */,
+				D6D177DC18F38B1000E90436 /* LCVesperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D177BA18F38B1000E90436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D177FD18F397C800E90436 /* Assassins List.plist in Resources */,
+				D6D177D818F38B1000E90436 /* Images.xcassets in Resources */,
+				D6D1780518F39C4600E90436 /* Assassin1.JPG in Resources */,
+				D6D1780A18F39C4600E90436 /* Assassin6.JPG in Resources */,
+				D6D1780618F39C4600E90436 /* Assassin2.JPG in Resources */,
+				D6D1780718F39C4600E90436 /* Assassin3.JPG in Resources */,
+				D6D1780818F39C4600E90436 /* Assassin4.JPG in Resources */,
+				D6D177FB18F3915100E90436 /* LCVCell.xib in Resources */,
+				D6D177CA18F38B1000E90436 /* InfoPlist.strings in Resources */,
+				D6D1780918F39C4600E90436 /* Assassin5.JPG in Resources */,
+				D6D177D318F38B1000E90436 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D177DB18F38B1000E90436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D177E918F38B1000E90436 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D177B818F38B1000E90436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D177D018F38B1000E90436 /* LCVAppDelegate.m in Sources */,
+				D6D177D618F38B1000E90436 /* LCVViewController.m in Sources */,
+				D6D177FA18F3915100E90436 /* LCVCell.m in Sources */,
+				D6D177CC18F38B1000E90436 /* main.m in Sources */,
+				D6D1780D18F39C8300E90436 /* LCVItem.m in Sources */,
+				D6D1781018F3D24200E90436 /* UITableView+Frames.m in Sources */,
+				D6D177F618F38CF200E90436 /* LCVDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D177D918F38B1000E90436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D177EB18F38B1000E90436 /* LCVesperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D177E318F38B1000E90436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D177BB18F38B1000E90436 /* LCVesper */;
+			targetProxy = D6D177E218F38B1000E90436 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6D177C818F38B1000E90436 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D177C918F38B1000E90436 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6D177D118F38B1000E90436 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D177D218F38B1000E90436 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6D177E718F38B1000E90436 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D177E818F38B1000E90436 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6D177EC18F38B1000E90436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6D177ED18F38B1000E90436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D177EF18F38B1000E90436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCVesper/LCVesper-Prefix.pch";
+				INFOPLIST_FILE = "LCVesper/LCVesper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6D177F018F38B1000E90436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCVesper/LCVesper-Prefix.pch";
+				INFOPLIST_FILE = "LCVesper/LCVesper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6D177F218F38B1000E90436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LCVesper.app/LCVesper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCVesper/LCVesper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LCVesperTests/LCVesperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6D177F318F38B1000E90436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LCVesper.app/LCVesper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCVesper/LCVesper-Prefix.pch";
+				INFOPLIST_FILE = "LCVesperTests/LCVesperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D177B718F38B1000E90436 /* Build configuration list for PBXProject "LCVesper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D177EC18F38B1000E90436 /* Debug */,
+				D6D177ED18F38B1000E90436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D177EE18F38B1000E90436 /* Build configuration list for PBXNativeTarget "LCVesper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D177EF18F38B1000E90436 /* Debug */,
+				D6D177F018F38B1000E90436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6D177F118F38B1000E90436 /* Build configuration list for PBXNativeTarget "LCVesperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D177F218F38B1000E90436 /* Debug */,
+				D6D177F318F38B1000E90436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D177B418F38B1000E90436 /* Project object */;
+}
